@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson 8 Demo</title>
+    
+</head>
+<body class="container">
+    <h2>Send us your info</h2>
+    <form action="#" method="get">
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input id="name" 
+                       type="text" 
+                       name="name" 
+                       value="" />
+            </li>
+            <li>
+                Requesting a reply:
+                <ul>
+                    <li>
+                        <input id="reply-yes" 
+                               type="radio" 
+                               name="reply" 
+                               value="yes" />
+                        <label for="reply-yes">Yes</label>
+                    </li>
+                    <li>
+                        <input id="reply-no" 
+                               type="radio" 
+                               name="reply" 
+                               value="no" />
+                        <label for="reply-no">No</label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label for="age">Age range</label>
+                <select id="age" name="age">
+                    <option value="under-18">Under 18</option>
+                    <option value="between-18-and-30">Between 18 and 30</option>
+                    <option value="30-up">30 and older</option>
+                </select>
+            </li>
+            <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="msg"></textarea>
+            </li>
+        </ul>
+        <p><button id="send" name="send" type="submit">Send</button></p>
+    </form>
+</body>
+</html>

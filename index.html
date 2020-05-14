@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson 8 Demo</title>
+    <link rel="stylesheet" href="https://bootswatch.com/3/paper/bootstrap.css" />
+</head>
+<body class="container">
+    <h2>Send us your info</h2>
+    <form action="#" method="get"
+          id="form-contact"
+          class="row form form-horizontal">
+        <ul class="list-unstyled col-sm-12">
+            <li class="form-group">
+                <label class="col-md-2 control-label" 
+                       for="name">Name:</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" 
+                       name="name" id="name" value="" />
+                </div>
+            </li>
+            <li class="form-group">
+                <span class="col-md-2 control-label">Requesting a reply:</span>
+                <ul class="col-md-10 list-inline">
+                    <li class="radio">
+                        <label for="reply-yes">
+                            <input type="radio"
+                               name="reply" id="reply-yes" value="yes" />
+                            Yes
+                        </label>
+                    </li>
+                    <li class="radio">
+                        <label for="reply-no">
+                            <input type="radio"
+                               name="reply" id="reply-no" value="no" />
+                            No 
+                        </label>
+                    </li>
+                </ul>
+            </li>
+            <li class="form-group">
+                <label class="col-md-2 control-label" 
+                       for="age">Age range</label>
+                <div class="col-md-10" >
+                    <select class="form-control" 
+                        name="age" id="age">
+                        <option value="under-18">Under 18</option>
+                        <option value="between-18-and-30">Between 18 and 30</option>
+                        <option value="30-up">30 and older</option>
+                    </select>
+                </div>
+            </li>
+            <li class="form-group">
+                <label class="col-md-2 control-label" for="msg">Message:</label>
+                <div class="col-md-10" >
+                    <textarea class="form-control" 
+                              name="msg" id="msg"></textarea>
+                </div>
+            </li>
+        </ul>
+        <p class="col-xs-12">
+            <button class="col-md-2 col-md-offset-2 btn btn-success" 
+                    name="send" type="submit">Done</button>
+        </p>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            
+          
+            
+        });
+    
+    </script>
+</body>
+</html>
